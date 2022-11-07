@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+.container{
+    max-width: 900px;  /* screen size maximum goes to that */
+    background-color: blue;
+   
+    margin: 0 auto; /* most cases used */
+    
+}
+.applybox{
+    max-width: 600px; /* screen size maximum goes to that */
+    padding: 20px;
+    background-color: rgb(200, 76, 76);
+    margin: 0 auto; /* most cases used */
+
+  
+    margin-top: 60px;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.titleweb{
+    font-size: 20px;
+}
+.form-container{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:20px
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
